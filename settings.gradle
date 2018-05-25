@@ -1,0 +1,4 @@
+rootProject.name = 'sufservice'
+include 'src'
+findProject(':src')?.name = 'sufservice'
+
